@@ -20,7 +20,7 @@ const App = () => {
       <Header>
         <div className="flex gap-3">
           <Link to="/admin" className="px-4 py-2 rounded-md bg-white border border-slate-200 text-slate-800 hover:bg-slate-50">Log In</Link>
-          <Link to="/createproduct" className="px-4 py-2 rounded-md bg-emerald-600 text-white hover:bg-emerald-700">Create</Link>
+          <Link to="/admin" className="px-4 py-2 rounded-md bg-emerald-600 text-white hover:bg-emerald-700">Create</Link>
         </div>
       </Header>
 
