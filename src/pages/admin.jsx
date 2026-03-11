@@ -20,7 +20,7 @@ const Admin = () => {
       localStorage.setItem("token", res.data.data.token);
 
       api.defaults.headers.Authorization = "Bearer " + res.data.data.token;
-      navigate("/");
+      navigate("/createproduct");
     } catch (err) {
       alert("Username yoki password noto‘g‘ri!");
       console.error(err);
