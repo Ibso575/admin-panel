@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Portable Laptop for Professionals",
+      "category": "Computers",
+      "price": 849.99,
+      "description": "Lightweight and powerful, perfect for professionals on the go with long battery life.",
+      "image": "/images/cp4saa7j2e4ghqnrvhg0.jpg",
+      "stock": 75,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Gaming Laptop with High FPS",
+      "category": "Computers",
+      "price": 1399.99,
+      "description": "A gaming laptop with a high-refresh-rate display and dedicated GPU for smooth gaming experience.",
+      "image": "/images/cs9plkdpq3ghb2qjr420.jpg",
+      "stock": 20,
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "sushi",
+      "category": "ovqat",
+      "price": 5,
+      "description": "farel balig'idan tayyorlangan juda mazali",
+      "image": "/images/image-1773228217781-876320313.png",
+      "stock": 4,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "name": "mushuk",
+      "category": "hayvon",
+      "price": 10,
+      "description": "juda yoqimtoy",
+      "image": "/images/image-1773228403488-784326018.jpg",
+      "stock": 6,
+      "rating": 4.2
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "address": "123 Main St, Springfield, IL",
+      "date": "2023-11-01",
+      "status": "Completed",
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "quantity": 2
+        }
+      ],
+      "total": 199.99
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "johndoe@example.com",
+      "password": "$2a$12$3aXsIBbnjO/dkF9omAN9VOs4rED0bda.TSRiD4O4FmqxTBjjdN4hi"
+    }
+  ]
+}
